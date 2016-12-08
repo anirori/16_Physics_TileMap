@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="15" tilewidth="24" tileheight="24" nextobjectid="1">
+ <tileset firstgid="1" source="terrain.tsx"/>
+ <tileset firstgid="17" name="objects" tilewidth="24" tileheight="24" tilecount="5" columns="5">
+  <image source="object.png" width="120" height="24"/>
+  <tile id="0">
+   <properties>
+    <property name="animation" value="hazard.png"/>
+    <property name="animationCount" value="2"/>
+    <property name="category" value="2"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="category" value="4"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="category" value="8"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="category" value="16"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="category" value="32"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Terrain" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztlkEOgCAMBK0f4P+/1aM1oCIrbcxMsqcG2cBEtQVAi+0p0SUSYdEFfgJeefBKA1558EoDXnnwSgNeeWpe2SEZafWK7IxXnqt7uJtF3SNe5WfEq56ZidPaF69ygFcaMns1eq6je9ZmV+t6ZngVR5RXLdYXz8r8v/8leNXXZ+a6SBTvULx63mfmutmov81FFHUvQgg5ZwOf7QOn
+  </data>
+ </layer>
+ <layer name="CollisionObj" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1EsOgCAMRdFuQYH9b9WJJg6AGNOP1HuSDqUWHogAAAAAwPfU6B9QVjuFdeyD0lrnTQGIp3Vni1Jfq+9W9rd54YNc5TR7i63PuUk/V82w5x2ZjpF9r6/5ijybdTvLk3c/D9lzBQBaDp/tBos=
+  </data>
+ </layer>
+</map>
