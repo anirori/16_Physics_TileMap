@@ -5,6 +5,7 @@ var Scroll_BG = cc.Layer.extend({
    spriteBGwidth: 0,
 
    bgIndex: 0,
+   
 
    ctor: function(parent) {
       this._super();
